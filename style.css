@@ -486,7 +486,7 @@ ul.skils :first-child :hover {
 }
 
 .see-project-2 {
-  /* padding: 3vw; */
+  padding: 22px;
   background: #ff6b00;
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -498,7 +498,6 @@ ul.skils :first-child :hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  width: 88vw;
   margin-bottom: 10vh;
   margin-left: 24px;
   margin-right: 24px;
@@ -519,6 +518,11 @@ ul.skils :first-child :hover {
 .about-me {
   display: flex;
   flex-direction: column;
+  height: 80vh;
+  background-image: url(/assets/images/Group1.png);
+  background-repeat: no-repeat;
+  background-position-y: 110%;
+  background-position-x: 100%;
 }
 
 .h31 {
@@ -577,7 +581,7 @@ hr.line-3 {
   margin-top: 5vh;
   background-color: #e5e5e5;
   height: 1px;
-  width: 90vw;
+  width: 87vw;
   margin-left: 4vw;
 }
 
@@ -587,6 +591,7 @@ ul.lists {
   align-items: center;
   margin-left: 12vw;
   margin-top: 40px;
+  margin-bottom: 53px;
   width: 70vw;
 }
 
@@ -671,7 +676,6 @@ ul.lists {
   font-weight: bold;
   display: inline-block;
   width: 0.6em;
-  margin-left: -1em;
 }
 
 .Sk-list {
