@@ -413,7 +413,6 @@ ul.skills {
   background-image: url(./assets/images/Placeholder1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 88vw;
 }
 
 .prof-art {
@@ -501,6 +500,7 @@ ul.skils :first-child :hover {
   margin-bottom: 10vh;
   margin-left: 24px;
   margin-right: 24px;
+  /* width: 88%; */
 }
 
 /* About me  */
@@ -567,15 +567,6 @@ ul.skils :first-child :hover {
   letter-spacing: 0.03em;
 }
 
-.abt-me-image {
-  align-self: flex-start;
-  width: 30vw;
-  height: 30vh;
-  position: relative;
-  left: 69vw;
-  margin-top: 0;
-}
-
 hr.line-3 {
   display: flex;
   margin-top: 5vh;
@@ -593,6 +584,7 @@ ul.lists {
   margin-top: 40px;
   margin-bottom: 53px;
   width: 70vw;
+  gap: 20px;
 }
 
 .Lan {
@@ -611,19 +603,6 @@ ul.lists {
   display: inline-block;
   width: 1.3em;
   margin-left: -1em;
-}
-
-.lan-list {
-  display: flex;
-  flex-direction: column;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  align-items: center;
-  text-align: center;
-  color: rgb(247, 240, 240);
 }
 
 .Frame {
@@ -646,19 +625,6 @@ ul.lists {
   margin-left: -1em;
 }
 
-.Frame-list {
-  display: flex;
-  flex-direction: column;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  align-items: center;
-  text-align: center;
-  color: rgb(247, 240, 240);
-}
-
 .Sk {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -678,7 +644,11 @@ ul.lists {
   width: 0.6em;
 }
 
-.Sk-list {
+ul.lists,
+ul.lan-list,
+ul.Frame-list,
+ul.Sk-list {
+  list-style: none;
   display: flex;
   flex-direction: column;
   font-family: "Inter", sans-serif;
@@ -689,13 +659,6 @@ ul.lists {
   align-items: center;
   text-align: center;
   color: rgb(247, 240, 240);
-}
-
-ul.lists,
-ul.lan-list,
-ul.Frame-list,
-ul.Sk-list {
-  list-style: none;
 }
 
 /* Form */
@@ -811,6 +774,10 @@ ul.Sk-list {
 @media only screen and (min-width: 768px) {
   .toolbar {
     display: none;
+  }
+
+  hr.line-3 {
+   display: none;
   }
 
   .desktop-header {
@@ -1208,7 +1175,13 @@ ul.Sk-list {
 
   .about-me-desk {
     display: flex;
+    height: 65vh;
     padding-left: 70px;
+    background-image: url(./assets/deskimage/Groupme.png);
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    background-size: 47%;
   }
 
   .story-abt-me {
@@ -1237,14 +1210,15 @@ ul.Sk-list {
     font-size: 20px;
     line-height: 32px;
     color: #f4f5f7;
+    width: 50%;
   }
 
-  .abt-img-desk {
+  /* .abt-img-desk {
     margin-top: 130px;
     width: 40vw;
     height: auto;
     transform: matrix(1, 0, 0, 1, 0, 0);
-  }
+  } */
 
   ul.lists {
     display: flex;
@@ -1255,7 +1229,7 @@ ul.Sk-list {
     width: 76vw;
     margin: 70px;
     border-top: 1px solid white;
-    border: 1px solid red;
+    margin-top: 150px;
   }
 
   .Frame,
