@@ -500,7 +500,6 @@ ul.skils :first-child :hover {
   margin-bottom: 10vh;
   margin-left: 24px;
   margin-right: 24px;
-  /* width: 88%; */
 }
 
 /* About me  */
@@ -777,7 +776,7 @@ ul.Sk-list {
   }
 
   hr.line-3 {
-   display: none;
+    display: none;
   }
 
   .desktop-header {
@@ -1212,13 +1211,6 @@ ul.Sk-list {
     color: #f4f5f7;
     width: 50%;
   }
-
-  /* .abt-img-desk {
-    margin-top: 130px;
-    width: 40vw;
-    height: auto;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  } */
 
   ul.lists {
     display: flex;
